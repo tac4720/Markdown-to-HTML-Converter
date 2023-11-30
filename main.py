@@ -4,7 +4,7 @@ import markdown
 def main():
     argc = len(sys.argv)
     if argc != 5:
-        print("Usage: python markdown main.py inputfile.md outputfile.html")
+        print("Usage: python main.py markdown inputfile.md outputfile.html")
         return 1
 
     inputfile = sys.argv[2]
